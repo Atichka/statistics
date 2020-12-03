@@ -1,0 +1,8 @@
+.vote__graph {
+  display: grid;
+  grid-template-columns: 96px 42px 155px;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}

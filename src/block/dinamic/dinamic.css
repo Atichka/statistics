@@ -1,0 +1,8 @@
+.dinamic {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0 90px;
+}

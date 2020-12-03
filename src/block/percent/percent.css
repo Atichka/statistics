@@ -1,0 +1,12 @@
+@import url(./__value/percent__value.css);
+@import url(./__symbol/percent__symbol.css);
+@import url(./__remans/percent__remans.css);
+
+.percent {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0 0;
+}

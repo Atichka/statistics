@@ -1,0 +1,9 @@
+.branch__tree {
+  display: block;
+  margin: 0 0 0 300px;
+  border: solid silver;
+  border-width: 0 0 1px 1px;
+  height: 20px;
+  width: 10px;
+  border-radius: 0 0 0 5px;
+}

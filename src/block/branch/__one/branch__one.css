@@ -1,0 +1,9 @@
+.branch__one {
+  display: block;
+  margin: 0 0 0 300px;
+  border: solid silver;
+  border-width: 1px 0 0 1px;
+  height: 220px;
+  width: 20px;
+  border-radius: 5px 0 0 0;
+}

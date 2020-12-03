@@ -2,11 +2,125 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Webpack</title>
+    <title>Statistics</title>
     <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
 </head>
 <body>
-    <h1>Hello</h1>
-    <script src="<%= htmlWebpackPlugin.files.js %>"></script>
+  <div class="container-horizont">
+    <div class="tree">
+      <span class="branch__one"></span>
+      <span class="branch__two"></span>
+      <span class="branch__plus">+</span>
+      <span class="branch__tree"></span>
+    </div>
+    <div>
+      <section class="statistics">
+        <svg class="loyalty" xmlns="http://www.w3.org/2000/svg" width="38.095" height="46.598" viewBox="-0.3 0 10.079 12.329">
+          <defs>
+            <clipPath clipPathUnits="userSpaceOnUse" id="a">
+              <path d="M473.452 610.624h28.571v-34.949h-28.571z"/>
+            </clipPath>
+          </defs>
+          <g clip-path="url(#a)" transform="matrix(.35278 0 0 -.35278 -167.323 215.415)">
+            <path d="M475.41 610.624a1.959 1.959 0 01-1.795-2.737c.179-.408.463-1.249.463-1.985v-28.89a1.335 1.335 0 112.669 0v28.89c0 .736.283 1.577.459 1.985a1.958 1.958 0 01-1.795 2.737M497.152 596.974c-.27-.368-.267-.863.008-1.198a31.766 31.766 0 014.397-4.395c1.255-1.025-.381-1.772-.748-1.928-7.47-3.191-14.934 3.485-22.4 1.452v15.76c7.478 2.034 14.954-4.671 22.43-1.44.366.157.699.119.86-.127.16-.244.12-.664-.103-1.075a63.255 63.255 0 00-4.444-7.05"/>
+          </g>
+        </svg>
+        <svg width="500px" height="500px" viewBox="0 0 42 42" class="donut">
+          <circle class="donut-hole" cx="21" cy="21" r="15.91549430918954" fill="transparent"></circle>
+          <circle class="donut-ring" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" stroke-width="1" stroke-dasharray="70 10"></circle>
+          <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="rgb(255, 145, 0)" stroke-width="1" stroke-dasharray="40 65" stroke-dashoffset="25"></circle>
+          <circle class="donut-segment" cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="green" stroke-width="1" stroke-dasharray="45 85" stroke-dashoffset="5"></circle>
+        </svg>
+        <div class="percent">
+          <p class="percent__value">72.</p>
+          <div class="percent__container">
+            <p class="percent__symbol">%</p>
+            <p class="percent__remans">7</p>
+          </div>
+        </div>
+        <div class="text">
+          <p class="title">Лояльность</p>
+          <p class="subtitle">ниже среднего</p>
+          <p class="paragraph">по отрасли: FMCG значений слева от медианы 52.0% - 83.1%</p>
+          <div class="dinamic">
+            <svg width="20" height="20">
+              <polygon points="10,15 15,5 20,15"
+                fill="green" stroke-width="2"
+              />
+            </svg>
+            <p class="text-green">3.1</p>
+          </div>
+        </div>
+      </section>
+      <section class="vote">
+        <div class="vote__container">
+          <div class="vote__graph">
+            <p class="vote__people">Промоутеры</p>
+            <div class="vote__vert">
+              <p class="vote__text">32.0%</p>
+              <div class="vote__horiz">
+                <p class="vote__text-grey">81</p>
+                <svg class="vote__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.59 16.31">
+                  <g data-name="Слой 2">
+                    <path d="M15.11 12.71a1.82 1.82 0 00-1-1.29l-2.81-1.29-1.16-.88a.8.8 0 00-.19-.38V7.44a7.55 7.55 0 00.72-1.32 1.7 1.7 0 00.77-1.32c0-.69-.21-.85-.42-.86C11 3.47 11.24 0 7.71 0 3.92 0 4.46 4 4.46 4c-.2 0-.42.17-.38.8a1.76 1.76 0 00.76 1.32 9.32 9.32 0 00.72 1.32v1.45a.78.78 0 00-.19.36l-1.16.87v.05L1.5 11.42a1.81 1.81 0 00-1 1.29L0 15.15s.46 1.16 7.8 1.16 7.79-1.16 7.79-1.16z" data-name="Layer 3"/>
+                  </g>
+                </svg>
+              </div>
+            </div>
+            <div class="graph">
+              <div class="graph__graph">
+                <div class="graph__graph-one graph__prom-one"></div>
+                <div class="graph__graph-two graph__prom-two"></div>
+              </div>
+              <p class="graph__text">+1.2%</p>
+            </div>
+          </div>
+          <div class="vote__graph">
+            <p class="vote__people">Скептики</p>
+            <div class="vote__vert">
+              <p class="vote__text">39.1%</p>
+              <div class="vote__horiz">
+                <p class="vote__text-grey">8</p>
+                <svg class="vote__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.59 16.31">
+                  <g data-name="Слой 2">
+                    <path d="M15.11 12.71a1.82 1.82 0 00-1-1.29l-2.81-1.29-1.16-.88a.8.8 0 00-.19-.38V7.44a7.55 7.55 0 00.72-1.32 1.7 1.7 0 00.77-1.32c0-.69-.21-.85-.42-.86C11 3.47 11.24 0 7.71 0 3.92 0 4.46 4 4.46 4c-.2 0-.42.17-.38.8a1.76 1.76 0 00.76 1.32 9.32 9.32 0 00.72 1.32v1.45a.78.78 0 00-.19.36l-1.16.87v.05L1.5 11.42a1.81 1.81 0 00-1 1.29L0 15.15s.46 1.16 7.8 1.16 7.79-1.16 7.79-1.16z" data-name="Layer 3"/>
+                  </g>
+                </svg>
+              </div>
+            </div>
+            <div class="graph">
+              <div class="graph__graph">
+                <div class="graph__graph-one graph__skep-one"></div>
+                <div class="graph__graph-two graph__skep-two"></div>
+              </div>
+              <p class="graph__text">+4.8%</p>
+            </div>
+          </div>
+          <div class="vote__graph">
+            <p class="vote__people">Критики</p>
+            <div class="vote__vert">
+              <p class="vote__text">79.8%</p>
+              <div class="vote__horiz">
+                <p class="vote__text-grey">7</p>
+                <svg class="vote__svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.59 16.31">
+                  <g data-name="Слой 2">
+                    <path d="M15.11 12.71a1.82 1.82 0 00-1-1.29l-2.81-1.29-1.16-.88a.8.8 0 00-.19-.38V7.44a7.55 7.55 0 00.72-1.32 1.7 1.7 0 00.77-1.32c0-.69-.21-.85-.42-.86C11 3.47 11.24 0 7.71 0 3.92 0 4.46 4 4.46 4c-.2 0-.42.17-.38.8a1.76 1.76 0 00.76 1.32 9.32 9.32 0 00.72 1.32v1.45a.78.78 0 00-.19.36l-1.16.87v.05L1.5 11.42a1.81 1.81 0 00-1 1.29L0 15.15s.46 1.16 7.8 1.16 7.79-1.16 7.79-1.16z" data-name="Layer 3"/>
+                  </g>
+                </svg>
+              </div>
+            </div>
+            <div class="graph">
+              <div class="graph__graph">
+                <div class="graph__graph-one graph__kritic-one"></div>
+                <div class="graph__graph-two graph__kritic-two"></div>
+              </div>
+              <p class="graph__text">-9.7%</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <script src="<%= htmlWebpackPlugin.files.js %>"></script>
 </body>
 </html>

@@ -1,0 +1,18 @@
+@import url(./__graph-one/graph__graph-one.css);
+@import url(./__graph-two/graph__graph-two.css);
+@import url(./__prom-one/graph__prom-one.css);
+@import url(./__prom-two/graph__prom-two.css);
+@import url(./__skep-one/graph__skep-one.css);
+@import url(./__skep-two/graph__skep-two.css);
+@import url(./__kritic-one/graph__kritic-one.css);
+@import url(./__kritic-two/graph__kritic-two.css);
+
+.graph {
+  border: 1px solid #a3a3a3;
+  background-color: #ebebeb;
+  padding: 0 5px 0 0;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 5px;
+  border-radius: 10px;
+}

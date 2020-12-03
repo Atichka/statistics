@@ -1,0 +1,4 @@
+.vote__horiz {
+  display: grid;
+  grid-template-columns: auto auto;
+}

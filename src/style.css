@@ -1,3 +1,14 @@
-h1 {
-  color: red;
-}
+@import url(./block/loyalty/loyalty.css);
+@import url(./block/statistics/statistics.css);
+@import url(./block/donut/donut.css);
+@import url(./block/percent/percent.css);
+@import url(./block/title/title.css);
+@import url(./block/subtitle/subtitle.css);
+@import url(./block/paragraph/paragraph.css);
+@import url(./block/text-green/text-green.css);
+@import url(./block/dinamic/dinamic.css);
+@import url(./block/vote/vote.css);
+@import url(./block/graph/graph.css);
+@import url(./block/branch/branch.css);
+@import url(./block/container-horizont/container-horizont.css);
+@import url(./block/tree/tree.css);
