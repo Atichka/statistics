@@ -14,7 +14,6 @@
 .vote__text{margin:0;text-align:end}
 .vote__svg{width:auto;height:100%;margin-left:2px;fill:#a3a3a3}
 .vote__text-grey{margin:0;text-align:end;color:#a3a3a3}
-
 .vote__graph{display:grid;grid-template-columns:96px 42px 155px;gap:15px;align-items:center;justify-content:center;margin-top:30px}
 
 .graph__graph-one{height:70%;border-radius:10px 0 0 0}
@@ -31,6 +30,6 @@
 .branch__plus{margin:0 0 0 294px;color:silver;font-size:25px}
 .branch__tree{display:block;margin:0 0 0 300px;border:solid silver;border-width:0 0 1px 1px;height:20px;width:10px;border-radius:0 0 0 5px}
 
-.container-horizont{display:grid;grid-template-columns:20px auto}
+.container-horizont{display:grid;grid-template-columns:20px auto;gap:10px;max-width:1000px}
 .tree{margin-top:250px}
 
