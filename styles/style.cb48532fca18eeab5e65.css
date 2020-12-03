@@ -1,0 +1,36 @@
+.loyalty{margin-top:70px;fill:#a3a3a3}
+.statistics{position:relative;text-align:center}
+.donut{width:600px;height:400px;position:absolute;left:50%;top:50%;margin-left:-300px;top:50px}
+.percent__value{font-style:normal;font-weight:400;font-size:40px;margin:0}
+.percent__symbol{color:#a3a3a3;margin:0}
+.percent__remans{margin:0}
+.percent{display:grid;grid-template-columns:auto auto;gap:5px;align-items:center;justify-content:center;margin:30px 0 0}
+.title{font-style:normal;font-weight:400;font-size:30px;margin:0}
+.subtitle{color:#ff9100;margin:10px 0}
+.paragraph{color:#a3a3a3;width:19%;margin:auto}
+.text-green{color:green;margin:0}
+.dinamic{display:grid;grid-template-columns:auto auto;gap:5px;align-items:center;justify-content:center;margin:10px 0 90px}
+.vote__horiz{display:grid;grid-template-columns:auto auto}
+.vote__text{margin:0;text-align:end}
+.vote__svg{width:auto;height:100%;margin-left:2px;fill:#a3a3a3}
+.vote__text-grey{margin:0;text-align:end;color:#a3a3a3}
+
+.vote__graph{display:grid;grid-template-columns:96px 42px 155px;gap:15px;align-items:center;justify-content:center;margin-top:30px}
+
+.graph__graph-one{height:70%;border-radius:10px 0 0 0}
+.graph__graph-two{height:30%;border-radius:0 0 0 10px}
+.graph__prom-one{background-color:green;width:100px}
+.graph__prom-two{background-color:#87d887;width:90px}
+.graph__skep-one{background-color:#ff9100;width:100px}
+.graph__skep-two{background-color:#ffcb88;width:80px}
+.graph__kritic-one{background-color:red;width:90px}
+.graph__kritic-two{background-color:#ff7979;width:100px}
+.graph{border:1px solid #a3a3a3;background-color:#ebebeb;padding:0 5px 0 0;display:grid;grid-template-columns:auto auto;gap:5px;border-radius:10px}
+.branch__one{display:block;margin:0 0 0 300px;border:solid silver;border-width:1px 0 0 1px;height:220px;width:20px;border-radius:5px 0 0 0}
+.branch__two{display:block;margin:0 0 0 300px;border:solid silver;border-width:1px 0 0 1px;height:30px;width:10px}
+.branch__plus{margin:0 0 0 294px;color:silver;font-size:25px}
+.branch__tree{display:block;margin:0 0 0 300px;border:solid silver;border-width:0 0 1px 1px;height:20px;width:10px;border-radius:0 0 0 5px}
+
+.container-horizont{display:grid;grid-template-columns:20px auto}
+.tree{margin-top:250px}
+
